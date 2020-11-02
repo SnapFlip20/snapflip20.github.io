@@ -15,14 +15,14 @@ remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "ko-KR"
 title                    : "SnapFlip20's blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "SnapFlip20"
 description              : "An amazing website."
 url                      : "https://snapflip20.github.io"
-baseurl                  : ""
+baseurl                  : #""
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
@@ -96,7 +96,7 @@ author:
   name             : "SnapFlip20"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "hahaha"
-  location         : "Daegu, Republic of Korea"
+  location         : "Daegu, Korea"
   email            : "jungmin1755@gmail.com"
   links:
     - label: "Email"
@@ -181,6 +181,7 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 # Conversion
 markdown: kramdown
+encoding: utf-8
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
@@ -276,6 +277,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
+      toc: true

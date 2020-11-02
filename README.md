@@ -1,2 +1,2 @@
 # snapflip20.github.io
-my github blog
+my github blog: https://snapflip20.github.io/
